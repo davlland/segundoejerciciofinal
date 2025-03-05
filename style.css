@@ -84,10 +84,12 @@ header {
 
 
 nav {
+
   /*
   ...cambia aquí...
   */
 }
+
 
 nav > ul {
   width: 35vw;
@@ -96,6 +98,13 @@ nav > ul {
   justify-content: space-around;
 }
 
+.menu-hamburguesa {
+  display: none;
+}
+
+.label-hamburguesa {
+  display: none;
+}
 
 #hero {
   display: flex;
@@ -277,4 +286,7 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+
+
 
