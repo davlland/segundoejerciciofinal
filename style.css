@@ -290,6 +290,10 @@ footer > span {
 @media (max-width: 768px) {
 
   /* Mostramos el icono hamburguesa */
+  #nav-bar {
+    position: relative;
+  }
+  
   .label-hamburguesa { 
     display: flex; 
     
@@ -351,3 +355,4 @@ footer > span {
   .menu-hamburguesa:checked + ul {
     display: flex;
 }
+
